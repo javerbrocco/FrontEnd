@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
     if(this.tokenService.getToken()){
       this.IsLogged=true;
       this.IsLogginFail=false;
-      this.roles=this.tokenService.getAthorities();
+      this.roles=this.tokenService.getAuthorities();
     }
   }
 onLogin():void{
