@@ -34,3 +34,9 @@ div{
     font-weight: bold;
     margin-top: 20%;
 }
+.descripcion{
+text-align: center;
+}
+.boton{
+    margin: 0px auto;
+}

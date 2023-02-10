@@ -9,7 +9,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
 URL =environment.URL+'educacion/'
-  //URL="https://backend-production-e309.up.railway.app/educacion/";
+//URL:"https://backend-production-ac83.up.railway.app/educacion/";
 
   constructor(private httpClient: HttpClient) { }
 

@@ -3,17 +3,15 @@
         <div>
             <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
                 <div class="form-group">
-                    <label for="nombre">Nueva skill</label>
+                    <label for="nombreE">Nombre del proyecto</label>
                     <input type="text" class="form-control" id="nombre" name="nombre"[(ngModel)]="nombre" required>
                 </div>
                 <div class="form-group">
-                    <label for="porcentaje">Porcentaje</label>
-                    <input type="text" class="form-control" id="porcentaje" name="porcentaje"[(ngModel)]="porcentaje" required>
+                    <label for="descripcionE">Descripcion de la tarea</label>
+                    <input type="text" class="form-control" id="descripcion" name="descripcion"[(ngModel)]="descripcion" required>
                 </div>
-               
-
                 <button class="btn btn-primary">
-                    Agregar skill
+                    Agregar Proyecto
                 </button>
             </form>
         </div>
