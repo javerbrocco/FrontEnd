@@ -1,5 +1,11 @@
 {
   "projects": {
-    "default": "frontend-44d67"
-  }
+    "default": "testing-c583b",
+    "test": "frontend-44d67",
+    "ss": "frontend-44d67",
+    "dev": "testing-c583b",
+    "s": "frontend-44d67"
+  },
+  "targets": {},
+  "etags": {}
 }
