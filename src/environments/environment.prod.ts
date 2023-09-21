@@ -9,5 +9,5 @@ export const environment = {
     messagingSenderId: '660769284136',
    },
   production: true,
-  URL:'https://bck-tzp0.onrender.com/'
+  URL:'https://bck-tzp0.onrender.com'
 };
